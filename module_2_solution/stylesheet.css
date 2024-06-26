@@ -1,0 +1,144 @@
+/* NOTE: I pulled this from the Lecture 24 slides as authorized in the instructions, all credit to Yaakov for the OG simple framework */
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
+    float: left;
+    border: 1px solid blue;
+  }
+  .col-dt-1 {
+    width: 8.33%;
+  }
+  .col-dt-2 {
+    width: 16.66%;
+  }
+  .col-dt-3 {
+    width: 25%;
+  }
+  .col-dt-4 {
+    width: 33.33%;
+  }
+  .col-dt-5 {
+    width: 41.66%;
+  }
+  .col-dt-6 {
+    width: 50%;
+  }
+  .col-dt-7 {
+    width: 58.33%;
+  }
+  .col-dt-8 {
+    width: 66.66%;
+  }
+  .col-dt-9 {
+    width: 74.99%;
+  }
+  .col-dt-10 {
+    width: 83.33%;
+  }
+  .col-dt-11 {
+    width: 91.66%;
+  }
+  .col-dt-12 {
+    width: 100%;
+  }
+}
+
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tbl-1, .col-tbl-2, .col-tbl-3, .col-tbl-4, .col-tbl-5, .col-tbl-6, .col-tbl-7, .col-tbl-8, .col-tbl-9, .col-tbl-10, .col-tbl-11, .col-tbl-12 {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-tbl-1 {
+    width: 8.33%;
+  }
+  .col-tbl-2 {
+    width: 16.66%;
+  }
+  .col-tbl-3 {
+    width: 25%;
+  }
+  .col-tbl-4 {
+    width: 33.33%;
+  }
+  .col-tbl-5 {
+    width: 41.66%;
+  }
+  .col-tbl-6 {
+    width: 50%;
+  }
+  .col-tbl-7 {
+    width: 58.33%;
+  }
+  .col-tbl-8 {
+    width: 66.66%;
+  }
+  .col-tbl-9 {
+    width: 74.99%;
+  }
+  .col-tbl-10 {
+    width: 83.33%;
+  }
+  .col-tbl-11 {
+    width: 91.66%;
+  }
+  .col-tbl-12 {
+    width: 100%;
+  }
+}
+/********** Mobile **********/
+@media (max-width: 767px) {
+  .col-mbl-1, .col-mbl-2, .col-mbl-3, .col-mbl-4, .col-mbl-5, .col-mbl-6, .col-mbl-7, .col-mbl-8, .col-mbl-9, .col-mbl-10, .col-mbl-11, .col-mbl-12 {
+    float: left;
+    border: 1px solid red;
+  }
+  .col-mbl-1 {
+    width: 8.33%;
+  }
+  .col-mbl-2 {
+    width: 16.66%;
+  }
+  .col-mbl-3 {
+    width: 25%;
+  }
+  .col-mbl-4 {
+    width: 33.33%;
+  }
+  .col-mbl-5 {
+    width: 41.66%;
+  }
+  .col-mbl-6 {
+    width: 50%;
+  }
+  .col-mbl-7 {
+    width: 58.33%;
+  }
+  .col-mbl-8 {
+    width: 66.66%;
+  }
+  .col-mbl-9 {
+    width: 74.99%;
+  }
+  .col-mbl-10 {
+    width: 83.33%;
+  }
+  .col-mbl-11 {
+    width: 91.66%;
+  }
+  .col-mbl-12 {
+    width: 100%;
+  }
+}
+
+/* End Responsive Framework */
+
+/* Base Styling */
+* {
+	box-sizing: border-box;
+}
